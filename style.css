@@ -96,7 +96,7 @@ div.col-md-6.mb-4 {
 .foto img {
     width: 180px;
     height: 180px;
-   border: 2px solid white;
+    border: 2px solid white;
     object-fit: cover;
     box-shadow: 0 0 35px rgba(173, 216, 230, 1), 0 0 80px rgba(100, 149, 237, 0.8);
     transition: transform 0.3s ease-in-out;
@@ -107,7 +107,6 @@ div.col-md-6.mb-4 {
 }
 
 /* Carousel */
-
 .carousel-container {
     width: 100%;
     overflow: hidden;
@@ -125,7 +124,7 @@ div.col-md-6.mb-4 {
     object-position: center; /* Centraliza a imagem dentro do carrossel */
 }
 
-#carouselExample{
+#carouselExample {
     max-width: 70%;
 }
 
@@ -140,13 +139,13 @@ div.col-md-6.mb-4 {
 @media (max-width: 991px) {
     .carousel-inner {
         height: 25vh; /* Altura ajustada para telas menores */
+        width: 100%;
     }
-    .member{
+    
+    .member {
         flex-direction: column;
     }
 }
-
-
 
 /* Formulário de Contato */
 form {
@@ -174,7 +173,7 @@ form {
         margin: auto;
     }
 
-    #carouselExample{
+    #carouselExample {
         max-width: 100%;
     }
 
@@ -187,7 +186,6 @@ form {
         max-width: 90%;
     }
 }
-
 
 /* Ajuste da altura do carrossel para telas grandes */
 @media (orientation: landscape) {
@@ -220,4 +218,5 @@ form {
         font-size: 4rem; /* Reduz o tamanho da fonte do título para telas largas */
     }
 }
+
 
