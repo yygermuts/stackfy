@@ -132,7 +132,7 @@ div.col-md-6.mb-4 {
 /* Ajustes para telas grandes */
 @media (min-width: 992px) {
     .carousel-inner {
-        height: 27vh; /* Define uma altura fixada para telas maiores */
+        height: 100vh; /* Define uma altura fixada para telas maiores */
     }
 }
 
