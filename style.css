@@ -107,6 +107,7 @@ div.col-md-6.mb-4 {
 }
 
 /* Carousel */
+
 .carousel-container {
     width: 100%;
     overflow: hidden;
@@ -124,6 +125,10 @@ div.col-md-6.mb-4 {
     object-position: center; /* Centraliza a imagem dentro do carrossel */
 }
 
+#carouselExample{
+    max-width: 70%;
+}
+
 /* Ajustes para telas grandes */
 @media (min-width: 992px) {
     .carousel-inner {
@@ -137,6 +142,8 @@ div.col-md-6.mb-4 {
         height: 40vh; /* Altura ajustada para telas menores */
     }
 }
+
+
 
 /* Formulário de Contato */
 form {
@@ -162,6 +169,10 @@ form {
     .carousel {
         max-width: 100%;
         margin: auto;
+    }
+
+    #carouselExample{
+        max-width: 100%;
     }
 
     .text-center {
@@ -199,10 +210,11 @@ form {
 /* Ajuste para o Hero Section */
 @media (orientation: landscape) {
     .hero {
-        height: 100vh; /* Ajusta a altura da seção Hero */
+        height: 55vh; /* Ajusta a altura da seção Hero */
     }
 
     .hero h1 {
         font-size: 4rem; /* Reduz o tamanho da fonte do título para telas largas */
     }
 }
+
