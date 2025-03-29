@@ -96,7 +96,7 @@ div.col-md-6.mb-4 {
 .foto img {
     width: 180px;
     height: 180px;
-    border-radius: 50%;
+   border: 2px solid white;
     object-fit: cover;
     box-shadow: 0 0 35px rgba(173, 216, 230, 1), 0 0 80px rgba(100, 149, 237, 0.8);
     transition: transform 0.3s ease-in-out;
@@ -132,14 +132,17 @@ div.col-md-6.mb-4 {
 /* Ajustes para telas grandes */
 @media (min-width: 992px) {
     .carousel-inner {
-        height: 100vh; /* Define uma altura fixada para telas maiores */
+        height: 27vh; /* Define uma altura fixada para telas maiores */
     }
 }
 
 /* Responsividade para telas menores */
 @media (max-width: 991px) {
     .carousel-inner {
-        height: 40vh; /* Altura ajustada para telas menores */
+        height: 25vh; /* Altura ajustada para telas menores */
+    }
+    .member{
+        flex-direction: column;
     }
 }
 
